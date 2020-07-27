@@ -16,6 +16,7 @@
   "umd:main": "dist/signature_pad.umd.js",
   "types": "dist/types/signature_pad.d.ts",
   "scripts": {
+    "prepare": "yarn run build",
     "build": "del dist && rollup --config && mkdir dist/types && mv dist/*.d.ts dist/types && cp dist/signature_pad.umd.js docs/js/",
     "format": "prettier --write '{src,tests}/**/*.{js,ts}'",
     "lint": "tslint -c tslint.json '{src,tests}/**/*.ts'",
