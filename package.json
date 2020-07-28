@@ -36,7 +36,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^23.1.1",
-    "canvas-prebuilt": "^1.6.5-prerelease.1",
+    "canvas-prebuilt": "^1.6.11",
     "del": "^3.0.0",
     "del-cli": "^1.1.0",
     "husky": "^0.14.3",
